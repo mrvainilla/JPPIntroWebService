@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0911EB371E6DD1FC00FD435B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0911EB361E6DD1FC00FD435B /* WebViewController.swift */; };
 		093520641E64B817006C9FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093520631E64B817006C9FDA /* AppDelegate.swift */; };
-		093520661E64B817006C9FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093520651E64B817006C9FDA /* ViewController.swift */; };
 		093520691E64B817006C9FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093520671E64B817006C9FDA /* Main.storyboard */; };
 		0935206B1E64B817006C9FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0935206A1E64B817006C9FDA /* Assets.xcassets */; };
 		0935206E1E64B817006C9FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0935206C1E64B817006C9FDA /* LaunchScreen.storyboard */; };
 		093520791E64B817006C9FDA /* JPPIntroWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093520781E64B817006C9FDA /* JPPIntroWebServiceTests.swift */; };
 		093520841E64B817006C9FDA /* JPPIntroWebServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093520831E64B817006C9FDA /* JPPIntroWebServiceUITests.swift */; };
+		093520921E64B92F006C9FDA /* PrimerWebServiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093520911E64B92F006C9FDA /* PrimerWebServiceTableViewController.swift */; };
+		093520941E64B96D006C9FDA /* WSPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093520931E64B96D006C9FDA /* WSPostModel.swift */; };
+		093520961E64BA92006C9FDA /* App_Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093520951E64BA92006C9FDA /* App_Utils.swift */; };
+		093520981E64BFE4006C9FDA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 093520971E64BFE4006C9FDA /* Podfile */; };
+		0935209A1E64C8DD006C9FDA /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093520991E64C8DD006C9FDA /* SwiftyJSON.framework */; };
+		0935209E1E64C935006C9FDA /* WSParserDataUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0935209D1E64C935006C9FDA /* WSParserDataUno.swift */; };
+		095D71601E6745E9002B46F2 /* APIManagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D715F1E6745E9002B46F2 /* APIManagerData.swift */; };
+		095D71621E674864002B46F2 /* WSDatosCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D71611E674864002B46F2 /* WSDatosCustomCell.swift */; };
+		095D71641E675431002B46F2 /* WSPostUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D71631E675431002B46F2 /* WSPostUser.swift */; };
+		095D71661E675556002B46F2 /* WSAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D71651E675556002B46F2 /* WSAddress.swift */; };
+		095D71681E675644002B46F2 /* WSGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D71671E675644002B46F2 /* WSGeo.swift */; };
+		095D716A1E67569A002B46F2 /* WSCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D71691E67569A002B46F2 /* WSCompany.swift */; };
+		095D716C1E675ADB002B46F2 /* WSParserUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D716B1E675ADB002B46F2 /* WSParserUserModel.swift */; };
+		095D716E1E676579002B46F2 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D716D1E676579002B46F2 /* UsersTableViewController.swift */; };
+		095D71701E67658E002B46F2 /* UserCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D716F1E67658E002B46F2 /* UserCustomCell.swift */; };
+		095D71721E676AD8002B46F2 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D71711E676AD8002B46F2 /* MapaViewController.swift */; };
+		16149623F86127A2D84A12E8 /* Pods_JPPIntroWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F16C0D6A4DA47F6254EDF0 /* Pods_JPPIntroWebService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0911EB361E6DD1FC00FD435B /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		093520601E64B817006C9FDA /* JPPIntroWebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPPIntroWebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		093520631E64B817006C9FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		093520651E64B817006C9FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		093520681E64B817006C9FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0935206A1E64B817006C9FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0935206D1E64B817006C9FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,25 @@
 		0935207F1E64B817006C9FDA /* JPPIntroWebServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPPIntroWebServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		093520831E64B817006C9FDA /* JPPIntroWebServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPPIntroWebServiceUITests.swift; sourceTree = "<group>"; };
 		093520851E64B817006C9FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093520911E64B92F006C9FDA /* PrimerWebServiceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimerWebServiceTableViewController.swift; sourceTree = "<group>"; };
+		093520931E64B96D006C9FDA /* WSPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSPostModel.swift; sourceTree = "<group>"; };
+		093520951E64BA92006C9FDA /* App_Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App_Utils.swift; sourceTree = "<group>"; };
+		093520971E64BFE4006C9FDA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		093520991E64C8DD006C9FDA /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/JPPIntroWebService-fwgmuueoxniolpezylgtxogkpsnv/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		0935209D1E64C935006C9FDA /* WSParserDataUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSParserDataUno.swift; sourceTree = "<group>"; };
+		095D715F1E6745E9002B46F2 /* APIManagerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerData.swift; sourceTree = "<group>"; };
+		095D71611E674864002B46F2 /* WSDatosCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDatosCustomCell.swift; sourceTree = "<group>"; };
+		095D71631E675431002B46F2 /* WSPostUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSPostUser.swift; sourceTree = "<group>"; };
+		095D71651E675556002B46F2 /* WSAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSAddress.swift; sourceTree = "<group>"; };
+		095D71671E675644002B46F2 /* WSGeo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSGeo.swift; sourceTree = "<group>"; };
+		095D71691E67569A002B46F2 /* WSCompany.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSCompany.swift; sourceTree = "<group>"; };
+		095D716B1E675ADB002B46F2 /* WSParserUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSParserUserModel.swift; sourceTree = "<group>"; };
+		095D716D1E676579002B46F2 /* UsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		095D716F1E67658E002B46F2 /* UserCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCustomCell.swift; sourceTree = "<group>"; };
+		095D71711E676AD8002B46F2 /* MapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		69A6458BD4BE27E1F484D9A3 /* Pods-JPPIntroWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPPIntroWebService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPPIntroWebService/Pods-JPPIntroWebService.debug.xcconfig"; sourceTree = "<group>"; };
+		871070D1943DFE2DDDBC4A16 /* Pods-JPPIntroWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPPIntroWebService.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPPIntroWebService/Pods-JPPIntroWebService.release.xcconfig"; sourceTree = "<group>"; };
+		D5F16C0D6A4DA47F6254EDF0 /* Pods_JPPIntroWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPPIntroWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0935209A1E64C8DD006C9FDA /* SwiftyJSON.framework in Frameworks */,
+				16149623F86127A2D84A12E8 /* Pods_JPPIntroWebService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +115,13 @@
 		093520571E64B817006C9FDA = {
 			isa = PBXGroup;
 			children = (
+				093520971E64BFE4006C9FDA /* Podfile */,
 				093520621E64B817006C9FDA /* JPPIntroWebService */,
 				093520771E64B817006C9FDA /* JPPIntroWebServiceTests */,
 				093520821E64B817006C9FDA /* JPPIntroWebServiceUITests */,
 				093520611E64B817006C9FDA /* Products */,
+				B18CB2D1F6F1D917B826D746 /* Pods */,
+				A7031B30EAE9C13260CEDB67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +139,14 @@
 			isa = PBXGroup;
 			children = (
 				093520631E64B817006C9FDA /* AppDelegate.swift */,
-				093520651E64B817006C9FDA /* ViewController.swift */,
+				0935209C1E64C910006C9FDA /* API */,
+				093520911E64B92F006C9FDA /* PrimerWebServiceTableViewController.swift */,
+				095D716D1E676579002B46F2 /* UsersTableViewController.swift */,
+				095D716F1E67658E002B46F2 /* UserCustomCell.swift */,
+				095D71611E674864002B46F2 /* WSDatosCustomCell.swift */,
+				095D71711E676AD8002B46F2 /* MapaViewController.swift */,
+				0911EB361E6DD1FC00FD435B /* WebViewController.swift */,
+				0935209B1E64C8F1006C9FDA /* MODELS */,
 				093520671E64B817006C9FDA /* Main.storyboard */,
 				0935206A1E64B817006C9FDA /* Assets.xcassets */,
 				0935206C1E64B817006C9FDA /* LaunchScreen.storyboard */,
@@ -125,6 +173,47 @@
 			path = JPPIntroWebServiceUITests;
 			sourceTree = "<group>";
 		};
+		0935209B1E64C8F1006C9FDA /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				093520931E64B96D006C9FDA /* WSPostModel.swift */,
+				095D71631E675431002B46F2 /* WSPostUser.swift */,
+				095D71691E67569A002B46F2 /* WSCompany.swift */,
+				095D71651E675556002B46F2 /* WSAddress.swift */,
+				095D71671E675644002B46F2 /* WSGeo.swift */,
+			);
+			name = MODELS;
+			sourceTree = "<group>";
+		};
+		0935209C1E64C910006C9FDA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				093520951E64BA92006C9FDA /* App_Utils.swift */,
+				0935209D1E64C935006C9FDA /* WSParserDataUno.swift */,
+				095D716B1E675ADB002B46F2 /* WSParserUserModel.swift */,
+				095D715F1E6745E9002B46F2 /* APIManagerData.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		A7031B30EAE9C13260CEDB67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				093520991E64C8DD006C9FDA /* SwiftyJSON.framework */,
+				D5F16C0D6A4DA47F6254EDF0 /* Pods_JPPIntroWebService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B18CB2D1F6F1D917B826D746 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69A6458BD4BE27E1F484D9A3 /* Pods-JPPIntroWebService.debug.xcconfig */,
+				871070D1943DFE2DDDBC4A16 /* Pods-JPPIntroWebService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 093520881E64B817006C9FDA /* Build configuration list for PBXNativeTarget "JPPIntroWebService" */;
 			buildPhases = (
+				F38FDB7A43AFCBFA4AA50F1F /* [CP] Check Pods Manifest.lock */,
 				0935205C1E64B817006C9FDA /* Sources */,
 				0935205D1E64B817006C9FDA /* Frameworks */,
 				0935205E1E64B817006C9FDA /* Resources */,
+				7B713EE29DEDD30D1EB95F94 /* [CP] Embed Pods Frameworks */,
+				1A9D98C1979B79CE1F5C3AB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +326,7 @@
 			files = (
 				0935206E1E64B817006C9FDA /* LaunchScreen.storyboard in Resources */,
 				0935206B1E64B817006C9FDA /* Assets.xcassets in Resources */,
+				093520981E64BFE4006C9FDA /* Podfile in Resources */,
 				093520691E64B817006C9FDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +347,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A9D98C1979B79CE1F5C3AB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPPIntroWebService/Pods-JPPIntroWebService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B713EE29DEDD30D1EB95F94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPPIntroWebService/Pods-JPPIntroWebService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F38FDB7A43AFCBFA4AA50F1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0935205C1E64B817006C9FDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				093520661E64B817006C9FDA /* ViewController.swift in Sources */,
+				095D716E1E676579002B46F2 /* UsersTableViewController.swift in Sources */,
 				093520641E64B817006C9FDA /* AppDelegate.swift in Sources */,
+				093520921E64B92F006C9FDA /* PrimerWebServiceTableViewController.swift in Sources */,
+				095D71641E675431002B46F2 /* WSPostUser.swift in Sources */,
+				095D71621E674864002B46F2 /* WSDatosCustomCell.swift in Sources */,
+				095D71601E6745E9002B46F2 /* APIManagerData.swift in Sources */,
+				093520941E64B96D006C9FDA /* WSPostModel.swift in Sources */,
+				095D71721E676AD8002B46F2 /* MapaViewController.swift in Sources */,
+				093520961E64BA92006C9FDA /* App_Utils.swift in Sources */,
+				095D71681E675644002B46F2 /* WSGeo.swift in Sources */,
+				095D71701E67658E002B46F2 /* UserCustomCell.swift in Sources */,
+				0935209E1E64C935006C9FDA /* WSParserDataUno.swift in Sources */,
+				095D716C1E675ADB002B46F2 /* WSParserUserModel.swift in Sources */,
+				095D71661E675556002B46F2 /* WSAddress.swift in Sources */,
+				095D716A1E67569A002B46F2 /* WSCompany.swift in Sources */,
+				0911EB371E6DD1FC00FD435B /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +563,7 @@
 		};
 		093520891E64B817006C9FDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A6458BD4BE27E1F484D9A3 /* Pods-JPPIntroWebService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JPPIntroWebService/Info.plist;
@@ -420,6 +576,7 @@
 		};
 		0935208A1E64B817006C9FDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871070D1943DFE2DDDBC4A16 /* Pods-JPPIntroWebService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JPPIntroWebService/Info.plist;
@@ -503,6 +660,7 @@
 				0935208A1E64B817006C9FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0935208B1E64B817006C9FDA /* Build configuration list for PBXNativeTarget "JPPIntroWebServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +669,7 @@
 				0935208D1E64B817006C9FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0935208E1E64B817006C9FDA /* Build configuration list for PBXNativeTarget "JPPIntroWebServiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +678,7 @@
 				093520901E64B817006C9FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
